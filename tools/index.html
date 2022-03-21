@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Tools | Puppet IAC Team</title>
-<meta name="generator" content="Jekyll v4.0.0" />
+<meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Tools" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Team blog and list of maintained tools by and for the Puppet Infrastructure Automation Content Team." />
@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://puppetlabs.github.io/iac/tools/" />
 <meta property="og:site_name" content="Puppet IAC Team" />
 <script type="application/ld+json">
-{"description":"Team blog and list of maintained tools by and for the Puppet Infrastructure Automation Content Team.","headline":"Tools","@type":"WebPage","url":"https://puppetlabs.github.io/iac/tools/","@context":"https://schema.org"}</script>
+{"description":"Team blog and list of maintained tools by and for the Puppet Infrastructure Automation Content Team.","@type":"WebPage","url":"https://puppetlabs.github.io/iac/tools/","headline":"Tools","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/iac/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://puppetlabs.github.io/iac/feed.xml" title="Puppet IAC Team" />
     <!-- Google Analytics -->
@@ -41,7 +41,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/iac/about/">About</a><a class="page-link" href="/iac/modules/">Modules</a><a class="page-link" href="/iac/tools/">Tools</a></div>
+        <div class="trigger"><a class="page-link" href="/iac/docs/">Docs</a><a class="page-link" href="/iac/modules/">Modules</a><a class="page-link" href="/iac/tools/">Tools</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -68,8 +68,6 @@
 <li><a href="#resource-api">Resource API</a></li>
 
 <li><a href="#misc-module-tools">Misc Module tools</a></li>
-
-<li><a href="#i18n">i18n</a></li>
 
 </ul>
 
@@ -164,7 +162,7 @@
   </div>
   <div class="col">
     Command line tool for generating and testing modules.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/pdk?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/pdk?logo=travis">
@@ -221,7 +219,7 @@
   </div>
   <div class="col">
     The canonical gem to build puppet modules.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-modulebuilder?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-modulebuilder?logo=travis">
@@ -270,7 +268,7 @@
   </div>
   <div class="col">
     A Database of OS facts provided by Facter.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/facterdb?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/camptocamp/facterdb?logo=travis">
@@ -289,7 +287,7 @@
   </div>
   <div class="col">
     Tool to check the validity of Puppet metadata.json files.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/metadata-json-lint?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/voxpupuli/metadata-json-lint?logo=travis">
@@ -308,12 +306,12 @@
   </div>
   <div class="col">
     Check that your Puppet manifests conform to the style guide.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-lint?logo=rubygems">
     
     
-    <img alt="Travis" src="https://img.shields.io/travis/rodjek/puppet-lint?logo=travis">
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-lint?logo=travis">
     
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/rodjek/puppet-lint?logo=appveyor" />
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppet-lint?logo=appveyor" />
     
     
     
@@ -327,7 +325,7 @@
   </div>
   <div class="col">
     Syntax checks for Puppet manifests and templates.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-syntax?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/voxpupuli/puppet-syntax?logo=travis">
@@ -346,7 +344,7 @@
   </div>
   <div class="col">
     A set of shared spec helpers specific to Puppetlabs projects.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppetlabs_spec_helper?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppetlabs_spec_helper?logo=travis">
@@ -365,7 +363,7 @@
   </div>
   <div class="col">
     Simplify your unit tests by looping on every supported Operating System and populating facts.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/rspec-puppet-facts?logo=rubygems">
     
     
     <img alt="Travis" src="https://img.shields.io/travis/mcanevet/rspec-puppet-facts?logo=travis">
@@ -384,12 +382,12 @@
   </div>
   <div class="col">
     RSpec tests for your Puppet manifests.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/true?logo=rubygems">
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/rspec-puppet?logo=rubygems">
     
     
-    <img alt="Travis" src="https://img.shields.io/travis/rodjek/rspec-puppet?logo=travis">
+    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/rspec-puppet?logo=travis">
     
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/rodjek/rspec-puppet?logo=appveyor" />
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/rspec-puppet?logo=appveyor" />
     
     
     
@@ -407,6 +405,63 @@
 </div>
 
 
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/action-litmus_parallel.html">Github Action for Litmus</a></h3>
+  </div>
+  <div class="col">
+    This action was designed to allow running acceptance tests for Puppet modules using Litmus.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/action-litmus_spec.html">Github Action for Module unit testing</a></h3>
+  </div>
+  <div class="col">
+    This action was designed to allow running spec tests for Puppet modules.<br/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
+    <h3><a href="/iac/tools/litmus-docs.html">Litmus Docs</a></h3>
+  </div>
+  <div class="col">
+    This repository contains the docs mini site for Puppet Litmus.<br/>
+    
+    
+    
+    
+    
+    
+    <img alt="GitHub Actions" src="https://img.shields.io/github/workflow/status/puppetlabs/litmus/Jekyll Deploy?logo=github" />
+    
+    
+  </div>
+</div>
+<br/>
 
 <div class="row">
   <div class="col">
@@ -530,6 +585,25 @@
 
 <div class="row">
   <div class="col">
+    <h3><a href="/iac/tools/dropsonde.html">dropsonde</a></h3>
+  </div>
+  <div class="col">
+    A simple telemetry probe for gathering non-identifiable information about Puppet infrastructures.<br/>
+    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/dropsonde?logo=rubygems">
+    
+    
+    
+    
+    
+    <img alt="GitHub Actions" src="https://img.shields.io/github/workflow/status/puppetlabs/dropsonde/nightly?logo=github" />
+    
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
     <h3><a href="/iac/tools/iac-blog.html">IAC Blog</a></h3>
   </div>
   <div class="col">
@@ -568,6 +642,25 @@
 
 <div class="row">
   <div class="col">
+    <h3><a href="/iac/tools/puppet-dsc-builder.html">PuppetDscBuilder</a></h3>
+  </div>
+  <div class="col">
+    A PowerShell function to wrap DSC resources in puppet providers.<br/>
+    
+    
+    
+    
+    
+    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/PuppetDscBuilder?logo=appveyor" />
+    
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/PuppetDscBuilder?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
+    
+  </div>
+</div>
+<br/>
+
+<div class="row">
+  <div class="col">
     <h3><a href="/iac/tools/ruby-pwsh.html">PowerShell Gem (ruby-pwsh)</a></h3>
   </div>
   <div class="col">
@@ -583,74 +676,6 @@
     <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/ruby-pwsh?logo=appveyor" />
     
     <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/ruby-pwsh?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
-    
-  </div>
-</div>
-<br/>
-
-<hr />
-<br />
-
-<div class="row">
-  <div class="col">
-    <h2>i18n<a id="i18n"></a></h2>
-  </div>
-</div>
-
-
-
-<div class="row">
-  <div class="col">
-    <h3><a href="/iac/tools/puppet-lint-i18n.html">puppet-lint-i18n plugin</a></h3>
-  </div>
-  <div class="col">
-    check and decorate puppet code for internationalization.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet-lint-i18n?logo=rubygems">
-    
-    
-    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet-lint-i18n?logo=travis">
-    
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppet-lint-i18n?logo=appveyor" />
-    
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/puppet-lint-i18n?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
-    
-  </div>
-</div>
-<br/>
-
-<div class="row">
-  <div class="col">
-    <h3><a href="/iac/tools/puppet_pot_generator.html">puppet_pot_generator</a></h3>
-  </div>
-  <div class="col">
-    Library / Gem to generate a gettext style pot file from puppet code.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/puppet_pot_generator?logo=rubygems">
-    
-    
-    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/puppet_pot_generator?logo=travis">
-    
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/puppet_pot_generator?logo=appveyor" />
-    
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/puppet_pot_generator?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
-    
-  </div>
-</div>
-<br/>
-
-<div class="row">
-  <div class="col">
-    <h3><a href="/iac/tools/rubocop-i18n.html">Rubocop::I18n</a></h3>
-  </div>
-  <div class="col">
-    A set of cops for detecting strings that need i18n decoration in your project.<br/>
-    <img alt="Gem downloads" src="https://img.shields.io/gem/dt/rubocop-i18n?logo=rubygems">
-    
-    
-    <img alt="Travis" src="https://img.shields.io/travis/puppetlabs/rubocop-i18n?logo=travis">
-    
-    <img alt="Appveyor" src="https://img.shields.io/appveyor/build/puppetlabs/rubocop-i18n?logo=appveyor" />
-    
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/gh/puppetlabs/rubocop-i18n?logo=codecov&token=ef8ebfa9632b46799eb523869ffa6cd5">
     
   </div>
 </div>
@@ -680,7 +705,7 @@
           <li class="p-name">Puppet IAC Team</li><li><a class="u-email" href="mailto:ia_content@puppet.com">ia_content@puppet.com</a></li></ul>
       </div>
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/puppetlabs"><svg class="svg-icon"><use xlink:href="/iac/assets/minima-social-icons.svg#github"></use></svg> <span class="username">puppetlabs</span></a></li></ul>
 </div>
 
       <div class="footer-col footer-col-3">
